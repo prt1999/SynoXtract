@@ -1,4 +1,4 @@
-# SynoXtract
+# SynoXtract CLI and GUI
 
 Synology .pat/.spk file decryption and extraction utility.
 
@@ -7,7 +7,14 @@ Synology .pat/.spk file decryption and extraction utility.
 - `libsodium`
 - `msgpack-cxx`
 
-## Usage
+## GUI  Usage
+
+1. Run synoxtract-gui.exe.
+2. File -> Open or Drag a file into the window.
+3. Select files and click Select Extract, or click All Extract.
+4. Check the Status Bar for progress.
+
+## CLI Usage
 
 ```bash
 # List files in archive
